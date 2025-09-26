@@ -16,7 +16,7 @@ const Card = ({ date, handleClick }) => {
               date.status === "Open"
                 ? "border-green-300 bg-[#B9F8CF] text-green-700"
                 : date.status === "In-Progress"
-                ? "bg-[#F8F3B9] "
+                ? "bg-[#F8F3B9] text-[#9C7700]"
                 : null
             }  `}
           >
