@@ -74,18 +74,15 @@ if (info.status === "Open" || info.status === "In-Progress") {
           }}
           className="card-status  text-white h-[200px] rounded-xl flex"
         >
-          {/* Left Image */}
           <div className="flex items-center justify-start flex-1">
             <img src={img1} alt="" className="h-50 w-50" />
           </div>
 
-          {/* Centered Content */}
           <div className="flex flex-col items-center justify-center flex-1 ">
             <h2 className="text-xl mb-2 text-center">In-Progress</h2>
-            <p className="text-3xl">{cartArry.length}</p>
+            <p className="text-3xl font-semibold">{cartArry.length}</p>
           </div>
 
-          {/* Right Image */}
           <div className="flex items-center justify-end flex-1 rotate-y-180">
             <img src={img1} alt="" className="h-50 w-50" />
           </div>
@@ -99,18 +96,15 @@ if (info.status === "Open" || info.status === "In-Progress") {
           }}
           className="card-status  text-white h-[200px] rounded-xl flex"
         >
-          {/* Left Image */}
           <div className="flex items-center justify-start flex-1">
             <img src={img1} alt="" className="h-50 w-50" />
           </div>
 
-          {/* Centered Content */}
           <div className="flex flex-col items-center justify-center flex-1 ">
             <h2 className="text-xl mb-2 text-center">Resolved</h2>
-            <p className="text-3xl">{resolvedArry.length}</p>
+            <p className="text-3xl font-semibold">{resolvedArry.length}</p>
           </div>
 
-          {/* Right Image */}
           <div className="flex items-center justify-end flex-1 rotate-y-180">
             <img src={img1} alt="" className="h-50 w-50" />
           </div>

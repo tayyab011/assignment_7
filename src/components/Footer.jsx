@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white pt-12 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-6  gap-8">
-          {/* Brand/Description Section */}
+         
           <div className="lg:col-span-2 md:text-base text-[12px]">
             <h3 className="text-2xl font-bold mb-4">CS — Ticket System</h3>
             <p className="text-gray-400 mb-4">
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Company Links */}
+        
           <div className="md:text-base text-[12px]">
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
@@ -51,7 +51,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services Links */}
+       
           <div className="md:text-base text-[12px]">
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
@@ -82,7 +82,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Information Links */}
+      
           <div className="md:text-base text-[12px]">
             <h4 className="text-lg font-semibold mb-4">Information</h4>
             <ul className="space-y-2">
@@ -164,7 +164,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social Links and Contact */}
+   
 
         <div className="text-gray-400 text-sm text-center my-5">
           © 2025 CS — Ticket System. All rights reserved.
