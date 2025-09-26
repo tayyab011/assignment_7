@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.toggle-btn{
+  @apply btn btn-sm md:btn-lg bg-purple-600 px-6 py-2 rounded-xl
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+  font-family: 'Inter';
+}

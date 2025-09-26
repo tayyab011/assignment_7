@@ -1,0 +1,102 @@
+[
+  {
+    "id": "PH-2001",
+    "title": "Password reset request",
+    "description": "User forgot password and needs a reset.",
+    "status": "Open",
+    "priority": "High",
+    "createdAt": "2025-09-20T",
+    "assignedTo": "Agent001",
+    "customer": "Jhankar Mahbub"
+  },
+  {
+    "id": "PH-2002",
+    "title": "Login issue on dashboard",
+    "description": "Customer is unable to log in to the dashboard.",
+    "status": "Open",
+    "priority": "Medium",
+    "createdAt": "2025-09-21",
+    "assignedTo": "Agent002",
+    "customer": "Programming Hero"
+  },
+  {
+    "id": "PH-2003",
+    "title": "Bug in payment gateway",
+    "description": "Customer reports payment is failing intermittently.",
+    "status": "In-Progress",
+    "priority": "Open",
+    "createdAt": "2025-09-21",
+    "assignedTo": "Agent003",
+    "customer": "John Doe"
+  },
+  {
+    "id": "PH-2004",
+    "title": "UI improvement request",
+    "description": "Customer suggested improving button visibility.",
+    "status": "Open",
+    "priority": "Low",
+    "createdAt": "2025-09-22",
+    "assignedTo": "Agent004",
+    "customer": "Jane Smith"
+  },
+  {
+    "id": "PH-2005",
+    "title": "Feature request: Dark mode",
+    "description": "Customer wants a dark mode option for the app.",
+    "status": "Open",
+    "priority": "Medium",
+    "createdAt": "2025-09-22",
+    "assignedTo": "Agent005",
+    "customer": "Alice Johnson"
+  },
+  {
+    "id": "PH-2006",
+    "title": "Slow loading issue",
+    "description": "Page takes more than 10 seconds to load.",
+    "status": "Open",
+    "priority": "High",
+    "createdAt": "2025-09-23",
+    "assignedTo": "Agent006",
+    "customer": "Bob Martin"
+  },
+  {
+    "id": "PH-2007",
+    "title": "Error 500 on profile page",
+    "description": "Customer gets 500 error while editing profile.",
+    "status": "In-Progress",
+    "priority": "Medium",
+    "createdAt": "2025-09-23",
+    "assignedTo": "Agent007",
+    "customer": "Charlie Davis"
+  },
+  {
+    "id": "PH-2008",
+    "title": "Account suspension appeal",
+    "description": "Customer wants to appeal account suspension.",
+    "status": "In-Progress",
+    "priority": "Medium",
+    "createdAt": "2025-09-24",
+    "assignedTo": "Agent008",
+    "customer": "Eva Green"
+  },
+  {
+    "id": "PH-2009",
+    "title": "Email not receiving",
+    "description": "Customer is not receiving any email notifications.",
+    "status": "In-Progress",
+    "priority": "High",
+    "createdAt": "2025-09-25",
+    "assignedTo": "Agent009",
+    "customer": "Frank Wilson"
+  },
+  {
+    "id": "PH-2010",
+    "title": "Feature feedback: Analytics dashboard",
+    "description": "Customer shared feedback for analytics dashboard layout.",
+    "status": "In-Progress",
+    "priority": "Low",
+    "createdAt": "2025-09-26",
+    "assignedTo": "Agent010",
+    "customer": "Grace Hopper"
+  }
+]
