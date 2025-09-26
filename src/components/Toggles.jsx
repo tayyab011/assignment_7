@@ -59,7 +59,7 @@ if (info.status === "Open" || info.status === "In-Progress") {
    SetData(resData);
    const remainingArray = cartArry.filter((e) => e.id !== info.id);
    setCartArry(remainingArray);
-    /*  setCartArry((prevCart) => prevCart.filter((item) => item.id !== info.id)); */
+    
 
 }
 
