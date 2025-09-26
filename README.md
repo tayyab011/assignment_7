@@ -1,16 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1/What is JSX, and why is it used?
+ans:
+JSX means JavaScript XML  
+It lets us write HTML inside JavaScript. 
+It makes code easier to read and write
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+2/What is the difference between State and Props?
+ans:
+State: Local data of a component, can be changed  
+Props: Data from parent to child, cannot be changed
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3/What is the useState hook, and how does it work?
+ans:
+useState is a React Hook to create state in a component. 
+It gives two things: value and function to update that value
+
+
+
+4/How can you share state between components in React?
+ans:
+- Lift state up to parent and pass as props  
+- Use Context API to share globally  
+- Use state management library like Redux
+
+
+
+5/How is event handling done in React?
+ans:
+Event handling uses camelCase and functions. 
+Example: onClick, onChange, onSubmit etc
